@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+
+    /* animation-name: rotate;
+    animation-duration: 3s;
+    animation-delay: 0;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2; */
+
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+
+.green {
+    background-color: green;
+}
+
+/* 
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(1440deg);
+    }
+} */
